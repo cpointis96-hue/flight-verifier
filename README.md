@@ -94,3 +94,7 @@ des fixtures. Raccorder ensuite un `DiscoveryProvider` réel et des couches de r
 Ne pas interpréter une absence de preuve comme une règle tarifaire défavorable. Ajouter
 des tests couvrant les réponses incomplètes, les changements de schéma et les demandes
 d’intervention humaine avant d’étendre à plusieurs compagnies.
+
+## Dépôt et téléchargement
+
+[Voir le dépôt](https://github.com/cpointis96-hue/flight-verifier) · [Télécharger les sources ZIP](https://github.com/cpointis96-hue/flight-verifier/archive/HEAD.zip). Le ZIP contient le socle Python, sans client réseau prêt à l’emploi.
