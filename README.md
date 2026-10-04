@@ -1,12 +1,16 @@
 # Flight verification fallback core
 
-Prototype Python d’orchestration de vérification de vols. Il définit des contrats de données,
-une chaîne de repli et un adaptateur de compagnie testé sur des fixtures locales.
-Il ne recherche pas encore de vols en direct et ne permet pas de réserver.
+## En bref
 
-Le projet explore la séparation entre découverte d’un vol, preuve provenant d’une compagnie,
-gestion des erreurs et intervention humaine. Les couches Playwright, Chrome/Patchright,
-Camoufox et Computer Use sont une architecture prévue, pas des intégrations déjà livrées.
+**Ce que c’est :** un socle Python pour vérifier des résultats de vols.
+
+**À quoi il sert :** séparer la découverte d’un vol, la preuve fournie par une compagnie, la gestion des erreurs et l’intervention humaine.
+
+**Ce qui a été réalisé :** contrats de données, orchestrateur de repli et adaptateur de compagnie testés sur des fixtures locales.
+
+**Technologies :** Python, architecture par adaptateurs et fixtures de test. Les couches Playwright, Chrome/Patchright, Camoufox et Computer Use sont prévues mais pas livrées.
+
+Le projet ne recherche pas encore de vols en direct et ne permet pas de réserver.
 
 ## Architecture
 
