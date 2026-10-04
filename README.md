@@ -77,6 +77,11 @@ Les six tests locaux passent dans la copie préparée pour le portfolio. Voir
 - `examples/demo.py` : essai entièrement local sur la fixture.
 - `docs/superpowers/plans/` : plan d’architecture initial.
 
+Un skill tiers de recherche Google Flights est conservé dans `.agents/skills/google-flights/`,
+avec sa licence MIT et son attribution à [skillhq/flight-search](https://github.com/skillhq/flight-search).
+Il s’agit d’instructions pour un agent, pas du client réseau de cette bibliothèque et pas
+d’un composant écrit pour ce projet. Il n’a pas été exécuté lors de la validation locale.
+
 ## État et prochaine étape
 
 Statut : socle de bibliothèque testé, intégration externe inachevée. Il n’y a ni interface
